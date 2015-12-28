@@ -1,0 +1,10 @@
+name: ${project.name}
+version: ${project.version}
+main: ${project.groupId}.${project.artifactId}.${project.name}
+description: |
+    ${project.description}
+commands:
+  placeholders:
+     description: Show placeholders
+     permission: placeholders.show
+     usage: /<command>

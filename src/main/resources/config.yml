@@ -1,0 +1,17 @@
+#permissions
+#schat.colours
+#placeholders.show /placeholders to see available placeholders
+#dashes replace with dots
+variables:
+    "FORMAT":
+        default: "{PREFIX}{RANKCOLOR}{DISPLAYNAME}&r{SUFFIX} §7»&f {CHATCOLOR}{MESSAGE}"
+    "RANKCOLOR":
+        Warden: '&c'
+        schat-guard: '&b'
+        schat-helper: '&e'
+        schat-yt: '&5'
+        schat-donor3: '&6'
+        default: '&9'
+    "CHATCOLOR":
+        schat-warden: '&6'
+        schat-guard: '&b'
